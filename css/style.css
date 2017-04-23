@@ -12,13 +12,17 @@ h2 {
   font-size: 430%;
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(7deg); /* IE 9 */
-  padding: 3%;
+  padding: 1%;
+  padding-bottom: 3%;
+}
+
+.header-text {
+   padding: 3% 10% 10% 5%;
 }
 
 .myquotes {
   font-family: 'Satisfy', cursive;
   font-size: 30px;
-  padding: 3% 10% 10% 5%;
 }
 
 .mytext {
@@ -64,6 +68,11 @@ h2 {
 
 .ada-work {
   background-color: rgb(144, 88, 160);
+  color: #FFFFFF;
+}
+
+.ada-quote {
+  background-color: #2ABB9B;
   color: #FFFFFF;
 }
 
