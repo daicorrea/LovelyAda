@@ -1,9 +1,19 @@
+body {
+    background-color: rgb(250, 250, 250) !important;
+}
+
 h1 {
-  font-family: "Ruda", cursive;
-  font-size: 80px;
+  font-family: "Ruda", cursive !important;
+  font-size: 80px !important;
 }
 
 .myquotes {
   font-family: 'Satisfy', cursive;
   font-size: 30px;
+  padding: 3% 10% 10% 5%;
+}
+
+.container-fluid {
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
 }
