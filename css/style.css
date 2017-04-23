@@ -32,9 +32,10 @@ h2 {
   margin-bottom: 5% !important;
 }
 
-.ada-life {
-  background-color: #FBB44C;
-  color: #FFFFFF;
+.container {
+  margin-top: 2%;
+  padding: 2%;
+  width: 100%;
 }
 
 .sitting-ada {
@@ -44,18 +45,26 @@ h2 {
   border-radius: 31%;
 }
 
-.container {
-  margin-top: 2%;
-  padding: 2%;
-  width: 100%;
+.stars-ada {
+  padding: 0% 6% 0% 6%;
+}
+
+.working-ada {
+  border-radius: 31%;
 }
 
 .ada-lessons {
-  background-color: rgb(56, 178, 173);
+  background-color: rgb(63, 193, 188);
 }
 
-.stars-ada {
-  padding: 0% 6% 0% 6%;
+.ada-life {
+  background-color: #FBB44C;
+  color: #FFFFFF;
+}
+
+.ada-work {
+  background-color: rgb(144, 88, 160);
+  color: #FFFFFF;
 }
 
 
