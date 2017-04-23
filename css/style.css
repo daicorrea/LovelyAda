@@ -19,12 +19,21 @@ h1 {
 }
 
 .ada-life {
-  background-color: rgb(253, 227, 167);
+  background-color: #FBB44C;
+  color: #FFFFFF;
 }
 
 .smaller-img {
   width: 35%;
   padding: 15px;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+.ada-lessons {
+  width: 86%;
 }
 
 
