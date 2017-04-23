@@ -16,6 +16,10 @@ h2 {
   padding-bottom: 3%;
 }
 
+a:link, a:visited {
+    color: #FBB44C;
+}
+
 .header-text {
    padding: 3% 10% 10% 5%;
 }
@@ -89,9 +93,11 @@ h2 {
 .ada-footer {
   padding-top: 1% !important;
   padding: 0;
-  background-color: #4495CA;
+  background-color: #9058A0;
   color: #FFFFFF;
   font-size: 12px;
 }
+
+
 
 
