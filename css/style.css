@@ -21,6 +21,12 @@ h2 {
   padding: 3% 10% 10% 5%;
 }
 
+.mytext {
+  padding-top: 5%;
+  font-size: 120%;
+  padding-right: 5%;
+}
+
 .container-fluid {
   margin-top: 5% !important;
   margin-bottom: 5% !important;
@@ -35,6 +41,7 @@ h2 {
   width: 65%;
   padding: 10px;
   padding-bottom: 20px;
+  border-radius: 31%;
 }
 
 .container {
