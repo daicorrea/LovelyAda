@@ -7,6 +7,14 @@ h1 {
   font-size: 80px !important;
 }
 
+h2 {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 430%;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(7deg); /* IE 9 */
+  padding: 3%;
+}
+
 .myquotes {
   font-family: 'Satisfy', cursive;
   font-size: 30px;
@@ -24,17 +32,23 @@ h1 {
 }
 
 .sitting-ada {
-  width: 60%;
+  width: 65%;
   padding: 10px;
   padding-bottom: 20px;
 }
 
 .container {
   margin-top: 2%;
+  padding: 2%;
+  width: 100%;
 }
 
 .ada-lessons {
-  width: 86%;
+  background-color: rgb(56, 178, 173);
+}
+
+.stars-ada {
+  padding: 0% 6% 0% 6%;
 }
 
 
