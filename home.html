@@ -3,13 +3,25 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Ruda:700|Satisfy" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--Importing Anjs-->
+        <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css" />
+
         <title>Lovely Ada</title>
     </head>
     <body>
       <div class="container-fluid">
         <h1 class="text-center">Ada Lovelace</h1>
-        <img src="https://2.bp.blogspot.com/-DsZfr2Mr6Zk/WC7esso0KSI/AAAAAAAABe4/eohtwF9IVdMLuHyfl6Yciyeq_wXPxtZCgCLcB/s400/ADA_LYING_2.jpg" alt="Responsive image" class="img-responsive center-block img-circle" />
+
+        <img src="https://2.bp.blogspot.com/-DsZfr2Mr6Zk/WC7esso0KSI/AAAAAAAABe4/eohtwF9IVdMLuHyfl6Yciyeq_wXPxtZCgCLcB/s400/ADA_LYING_2.jpg" alt="Cute Ada Lovelace lying on the ground" class="img-responsive center-block img-circle"/>
+
         <p class="text-center myquotes">Forget this world and all its troubles and if possible its multitudinous Charlatans - everything in short but the Enchantress of Numbers.</p>
+
+        <div class="item orange" 
+            data-anijs="if: scroll, on: window, do: rollIn animated, before: $scrollReveal repeat"><i class="fa fa-behance"></i>
+        </div>
       </div>
+
+        <script src="http://anijs.github.io/lib/anijs/anijs.js"></script>
+        <script src="http://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
     </body>
 </html>

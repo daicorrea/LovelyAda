@@ -17,3 +17,67 @@ h1 {
   margin-top: 5% !important;
   margin-bottom: 5% !important;
 }
+
+
+
+
+/*Starting here css*/
+
+/*The CSS example*/
+.item{
+  padding: 100px;
+  color: white;
+  width: 70px;
+  text-align: center;
+  font-size: 3em;
+  display: inline-block;
+  margin-right:10px;
+  margin-top: 10px;
+}
+
+.item i{
+}
+
+.blue{
+  background-color: #3498db;  
+}
+
+.orange{
+  background-color: #FBB44C;
+}
+
+.pink{
+  background-color: #FC797A;
+}
+
+.green{
+  background-color:#2ABB9B;
+}
+
+.container p{
+  color: #888;
+  padding: 40px 0;
+}
+
+
+
+/*End CSS example*/
+
+/*Other CSS*/
+body{
+  font-family: helvetica;
+  font-size: 1.2em;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  width: 50%;
+}
+
+.container{ 
+  margin-top: 50px;
+}
+
