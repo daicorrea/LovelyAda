@@ -56,13 +56,13 @@ h2 {
   border-radius: 31%;
 }
 
-.ada-lessons {
-  background-color: rgb(63, 193, 188);
-}
-
 .ada-life {
   background-color: #FBB44C;
   color: #FFFFFF;
+}
+
+.ada-lessons {
+  background-color: rgb(63, 193, 188);
 }
 
 .ada-work {
@@ -78,6 +78,12 @@ h2 {
 .ada-it {
   background-color: #2ABB9B;
   color: #FFFFFF;
+}
+
+.ada-end {
+  background-color: #4495CA;
+  color: #FFFFFF;
+  font-size: 16px;
 }
 
 
