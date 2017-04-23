@@ -1,26 +1,48 @@
 <html>
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Ruda:700|Satisfy" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!--Importing Anjs-->
-        <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css" />
 
         <title>Lovely Ada</title>
+
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Ruda:700|Satisfy" rel="stylesheet">
+
+        <!--Personal CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!--Importing Anijs-->
+        <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css" />
+
+        
     </head>
     <body>
       <div class="container-fluid">
+
         <!--Header-->
-        <div class="container" data-anijs="if: scroll, on: window, do: bouncein animated, before: $scrollReveal repeat">
+        <div class="container" data-anijs="if: scroll, on:window, do: bouncein animated, before: scrollReveal, after: removeAnim repeat; if: load, on: window, do: rubberBand animated">
             <h1 class="text-center">Ada Lovelace</h1>
-            <img src="https://2.bp.blogspot.com/-DsZfr2Mr6Zk/WC7esso0KSI/AAAAAAAABe4/eohtwF9IVdMLuHyfl6Yciyeq_wXPxtZCgCLcB/s400/ADA_LYING_2.jpg" alt="Cute Ada Lovelace lying on the ground" class="img-responsive center-block img-circle"/>
+            <img src="https://2.bp.blogspot.com/-DsZfr2Mr6Zk/WC7esso0KSI/AAAAAAAABe4/eohtwF9IVdMLuHyfl6Yciyeq_wXPxtZCgCLcB/s400/ADA_LYING_2.jpg" alt="Cute Ada Lovelace lying on the ground" class="img-responsive center-block img-circle" data-anijs="if: mouseover, do: rubberBand animated"/>
             <p class="text-center myquotes">Forget this world and all its troubles and if possible its multitudinous Charlatans - everything in short but the Enchantress of Numbers.</p>
         </div>
+
         <!--Life-->
-        <div class="container ada-life" data-anijs="if: scroll, on: window, do: bounceInLeft animated, before: scrollReveal">
-            <h2 class="text-center">Who was Ada Lovelace?</h2>
-            <img src="https://3.bp.blogspot.com/-a6Lz62GJIZY/WC7dlxPhjhI/AAAAAAAABew/141IfSaFIcwDTyHSCfKiHdUwa7KTNmiwACLcB/s1600/Ada_chair.jpg" alt="Cute Ada Lovelace Sitting on a Chair With Her Cat" class="img-responsive center-block img-circle smaller-img"/>
-            <p>Forget this world and all its troubles and if possible its multitudinous Charlatans - everything in short but the Enchantress of Numbers.</p>
+        <div class="container ada-life" data-anijs="if: scroll, on:window, do: rollIn animated, before: scrollReveal, after: removeAnim">
+            <div class="row">
+                <h2 class="text-center">Who was Ada Lovelace?</h2>
+                <div class="col-xs-6">
+                    <ul>
+                        <li>Cat ipsum dolor sit amet, licks paws eats owners hair then claws head and lick butt and make a weird face. Scratch the furniture where is my slave?</li>
+                        <li>I'm getting hungry sit by the fire jump five feet high and sideways when a shadow moves for meowing non stop for food. </li>
+                        <li>Friends are not food leave hair everywhere, so jump off balcony, onto stranger's head but shove bum in owner's face like camera lens refuse to drink water except out of someone's glass. </li>
+                        <li>Eat grass, throw it back up destroy couch chew on cable for peer out window, chatter at birds, lure them to mouth licks paws, meow all night having their mate disturbing sleeping humans.</li>
+                    </ul>
+                </div>
+                <div class="col-xs-6">
+                    <img src="https://3.bp.blogspot.com/-a6Lz62GJIZY/WC7dlxPhjhI/AAAAAAAABew/141IfSaFIcwDTyHSCfKiHdUwa7KTNmiwACLcB/s1600/Ada_chair.jpg" alt="Cute Ada Lovelace Sitting on a Chair With Her Cat" class="img-responsive center-block img-circle sitting-ada" data-anijs="if: mouseover, do: rubberBand animated"/>
+                </div>
+            </div>
         </div>
         <!--Lessons-->
         <div class="container ada-lessons" data-anijs="if: scroll, on: window, do: bouncein animated, before: $scrollReveal repeat">
@@ -28,6 +50,7 @@
         </div>
       </div>
 
+        <!--Importing animating JS-->
         <script src="http://anijs.github.io/lib/anijs/anijs.js"></script>
         <script src="http://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
     </body>
