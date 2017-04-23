@@ -32,7 +32,6 @@ h2 {
 }
 
 .container-fluid {
-  margin-top: 5% !important;
   margin-bottom: 5% !important;
 }
 
@@ -72,6 +71,11 @@ h2 {
 }
 
 .ada-quote {
+  background-color: #FC797A;
+  color: #FFFFFF;
+}
+
+.ada-it {
   background-color: #2ABB9B;
   color: #FFFFFF;
 }
